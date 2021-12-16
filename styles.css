@@ -56,6 +56,13 @@ a {
 .nav a:hover {
   color: white
 }
+.background-img {
+  text-align: center;
+  background: url('images/green-lantern-background.jpg') no-repeat top center;
+  background-size: cover;
+  overflow: hidden;
+  padding-top: 60px;
+}
 
 header {
   text-align: center;
@@ -118,9 +125,7 @@ header .profile-image:hover {
   max-width: 500px;
   text-align: left;
   background: green;
-  border-bottom: 4px solid yellowgreen;
   border-radius: 6px;
-  transition: all .5s;
 }
 .exp-card {
   margin: 30px;
