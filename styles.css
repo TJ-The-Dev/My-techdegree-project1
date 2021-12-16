@@ -91,6 +91,9 @@ header .ex-profile-image {
 header .profile-image:hover {
   transform: scale(1.5) rotate(360deg);
 }
+header .ex-profile-image:hover {
+  transform: scale(1.5);
+}
 .tag {
   background-color: black;
   color: green;
